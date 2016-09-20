@@ -15,6 +15,7 @@
 		688B6AF91D90C9670060F3BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 688B6AF71D90C9670060F3BE /* LaunchScreen.storyboard */; };
 		688B6B041D90C9680060F3BE /* UseBlockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 688B6B031D90C9680060F3BE /* UseBlockTests.m */; };
 		688B6B0F1D90C9680060F3BE /* UseBlockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 688B6B0E1D90C9680060F3BE /* UseBlockUITests.m */; };
+		688B6B1E1D90C9D50060F3BE /* LHBlockForUse.m in Sources */ = {isa = PBXBuildFile; fileRef = 688B6B1D1D90C9D50060F3BE /* LHBlockForUse.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		688B6B0A1D90C9680060F3BE /* UseBlockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UseBlockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		688B6B0E1D90C9680060F3BE /* UseBlockUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UseBlockUITests.m; sourceTree = "<group>"; };
 		688B6B101D90C9680060F3BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		688B6B1C1D90C9D50060F3BE /* LHBlockForUse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHBlockForUse.h; sourceTree = "<group>"; };
+		688B6B1D1D90C9D50060F3BE /* LHBlockForUse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHBlockForUse.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				688B6AED1D90C9670060F3BE /* AppDelegate.m */,
 				688B6AEF1D90C9670060F3BE /* ViewController.h */,
 				688B6AF01D90C9670060F3BE /* ViewController.m */,
+				688B6B1C1D90C9D50060F3BE /* LHBlockForUse.h */,
+				688B6B1D1D90C9D50060F3BE /* LHBlockForUse.m */,
 				688B6AF21D90C9670060F3BE /* Main.storyboard */,
 				688B6AF51D90C9670060F3BE /* Assets.xcassets */,
 				688B6AF71D90C9670060F3BE /* LaunchScreen.storyboard */,
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				688B6AF11D90C9670060F3BE /* ViewController.m in Sources */,
+				688B6B1E1D90C9D50060F3BE /* LHBlockForUse.m in Sources */,
 				688B6AEE1D90C9670060F3BE /* AppDelegate.m in Sources */,
 				688B6AEB1D90C9670060F3BE /* main.m in Sources */,
 			);
